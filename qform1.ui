@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QForm1</class>
+ <widget class="QMainWindow" name="QForm1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>728</width>
+    <height>242</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QForm1</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.5, y1:0.1, x2:0.5, y2:0, stop:0.454545 rgba(18, 18, 18, 255), stop:1 rgba(255, 255, 255, 255));
+border: 2px solid rgb(156, 156, 156);
+border-radius: 10px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>681</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Digital-7 Mono</family>
+      <pointsize>120</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	color: rgb(212, 212, 212);
+	border-color: rgb(30, 30, 30);
+	background-color: rgb(30, 30, 30);
+}</string>
+    </property>
+    <property name="text">
+     <string>00:00:00</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>653</x>
+      <y>171</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei</family>
+      <pointsize>24</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(3, 218, 128);
+	border: 1px solid black;
+	border-radius: 30px;
+}
+
+QPushButton:pressed{
+	background-color: rgb(3, 176, 101);
+	border: 3px solid black;
+	border-radius: 30px;
+}</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>166</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei</family>
+      <pointsize>24</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownWHITE.png</normaloff>
+      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownRED.png</normalon>
+      <disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownWHITEDisable.png</disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownWHITE.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>186</x>
+      <y>166</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:pressed{
+	icon: url(D:/UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetRED.png);	
+	border: 1px solid rgb(18,18,18);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetWhite.png</normaloff>
+      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetRED.png</normalon>
+      <disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetWhiteDisable.png</disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetWhite.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>166</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPlayWHITE.png</normaloff>
+      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerStopRED.png</normalon>
+      <selectedoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPlayWHITE.png</selectedoff>
+      <selectedon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerStopRED.png</selectedon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPlayWHITE.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>98</x>
+      <y>166</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhite.png</normaloff>
+      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseRED.png</normalon>
+      <disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhiteDisable.png</disabledoff>
+      <disabledon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhiteDisable.png</disabledon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhite.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>384</x>
+      <y>169</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Digital-7 Mono</family>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	color: rgb(212, 212, 212);
+	border-color: rgb(30, 30, 30);
+	background-color: qlineargradient(spread:pad, x1:0.465864, y1:0.1, x2:0.466, y2:0, stop:0 rgba(30, 30, 30, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QLineEdit:read-only{
+	color: rgb(255, 0, 0);
+	border-color: rgb(30, 30, 30);
+	background-color: rgb(30, 30, 30);
+}</string>
+    </property>
+    <property name="inputMask">
+     <string>00:00</string>
+    </property>
+    <property name="text">
+     <string>00:00</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
