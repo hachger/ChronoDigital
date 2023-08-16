@@ -116,10 +116,10 @@ QPushButton:pressed{
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownWHITE.png</normaloff>
-      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownRED.png</normalon>
-      <disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownWHITEDisable.png</disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timeDownWHITE.png</iconset>
+     <iconset resource="Chronometer.qrc">
+      <normaloff>:/timeDownWHITE.png</normaloff>
+      <normalon>:/timeDownRED.png</normalon>
+      <disabledoff>:/timeDownWHITEDisable.png</disabledoff>:/timeDownWHITE.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -142,7 +142,7 @@ QPushButton:pressed{
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton:pressed{
-	icon: url(D:/UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetRED.png);	
+	icon: url(://timerResetRED.png);	
 	border: 1px solid rgb(18,18,18);
 }
 
@@ -152,10 +152,10 @@ QPushButton:pressed{
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetWhite.png</normaloff>
-      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetRED.png</normalon>
-      <disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetWhiteDisable.png</disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerResetWhite.png</iconset>
+     <iconset resource="Chronometer.qrc">
+      <normaloff>:/timerResetWhite.png</normaloff>
+      <normalon>:/timerResetRED.png</normalon>
+      <disabledoff>:/timerResetWhiteDisable.png</disabledoff>:/timerResetWhite.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -180,11 +180,9 @@ QPushButton:pressed{
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPlayWHITE.png</normaloff>
-      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerStopRED.png</normalon>
-      <selectedoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPlayWHITE.png</selectedoff>
-      <selectedon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerStopRED.png</selectedon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPlayWHITE.png</iconset>
+     <iconset resource="Chronometer.qrc">
+      <normaloff>:/timerPlayWHITE.png</normaloff>
+      <normalon>:/timerStopRED.png</normalon>:/timerPlayWHITE.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -212,11 +210,10 @@ QPushButton:pressed{
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhite.png</normaloff>
-      <normalon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseRED.png</normalon>
-      <disabledoff>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhiteDisable.png</disabledoff>
-      <disabledon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhiteDisable.png</disabledon>../../../../UTILS/INSTALADORES/DESARROLLO/ICONOS/timerPauseWhite.png</iconset>
+     <iconset resource="Chronometer.qrc">
+      <normaloff>:/timerPauseWhite.png</normaloff>
+      <normalon>:/timerPauseRED.png</normalon>
+      <disabledoff>:/timerPauseWhiteDisable.png</disabledoff>:/timerPauseWhite.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -271,6 +268,8 @@ QLineEdit:read-only{
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="Chronometer.qrc"/>
+ </resources>
  <connections/>
 </ui>

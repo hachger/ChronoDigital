@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>timeDownRED.png</file>
+        <file>timeDownWHITE.png</file>
+        <file>timeDownWHITEDisable.png</file>
+        <file>timerPauseRED.png</file>
+        <file>timerPauseWhite.png</file>
+        <file>timerPauseWhiteDisable.png</file>
+        <file>timerPlayWHITE.png</file>
+        <file>timerResetRED.png</file>
+        <file>timerResetWhite.png</file>
+        <file>timerResetWhiteDisable.png</file>
+        <file>timerStopRED.png</file>
+    </qresource>
+</RCC>

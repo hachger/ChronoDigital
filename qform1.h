@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QTimer>
+#include <QMouseEvent>
 
 #include <QDebug>
 
@@ -21,6 +22,10 @@ public:
 private slots:
     void OnQTimer1();
 
+    void mousePressEvent(QMouseEvent *event) override;
+    void mouseReleaseEvent(QMouseEvent *event) override;
+    void mouseMoveEvent(QMouseEvent *event) override;
+
     void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
@@ -35,5 +40,8 @@ private:
     QTimer *QTimer1;
 
     int timeCount, timeCountAux;
+
+    bool mouseIsPressed;
+    int lastPosX, lastPosY;
 };
 #endif // QFORM1_H

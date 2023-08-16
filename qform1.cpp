@@ -23,6 +23,40 @@ QForm1::~QForm1()
     delete ui;
 }
 
+void QForm1::mousePressEvent(QMouseEvent *event){
+    if(event->button() == Qt::LeftButton){
+        lastPosX = event->pos().x();
+        lastPosY = event->pos().y();
+//        qDebug() << QString().number(lastPosX) + "," + QString().number(lastPosY);
+        mouseIsPressed = true;
+    }
+}
+
+void QForm1::mouseReleaseEvent(QMouseEvent *event){
+    if(event->button() == Qt::LeftButton){
+        mouseIsPressed = false;
+//        qDebug() << "MOUSE RELEASED";
+    }
+}
+
+void QForm1::mouseMoveEvent(QMouseEvent *event){
+    if(mouseIsPressed){
+        int newPosX = event->pos().x();
+        int newPosY = event->pos().y();
+        int dx = newPosX - lastPosX;
+        int dy = newPosY - lastPosY;
+
+        if(dx<10 && dx>-10)
+            dx = 0;
+        if(dy<10 && dy>-10)
+            dy = 0;
+
+        this->setGeometry(this->geometry().left()+dx, this->geometry().top()+dy, this->width(), this->height());
+    }
+
+
+}
+
 void QForm1::OnQTimer1(){
     QString str;
 
